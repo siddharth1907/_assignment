@@ -1,0 +1,81 @@
+#login_box{
+	position:absolute;
+	left:37%;
+	top:37%;
+	margin:10px auto;
+	height:120px;
+	background:-webkit-linear-gradient(top,  #00ffff, #99ff66);
+	border-radius:15px;
+}
+#en_no{
+	background-color:transparent;
+	outline: none;
+}
+#srch_btn{
+	background:-webkit-linear-gradient(top, #00ffff, #99ff66);
+	color: black;
+	font-weight:bold;
+	width:20%;
+	height:40px;
+	width:100px;
+	border-radius:20px;
+	outline: none;
+}
+#enroll_no:focus{
+	border-bottom: 2px solid white;
+}
+th{
+	font-size:20px;
+}
+td{
+	height:35px;
+	font-size:20px;
+	color:white;
+}
+.inp{
+	height:25px;
+	font-size:20px;
+	background:none;
+	border:none;
+	border-bottom:2px solid #ddd;
+}
+#forpas{
+	height:20px;
+	font-size:15px;
+	color:#ff6600;
+}
+#forpascon{
+	height:10px;
+	text-align:center;
+}
+.icon{
+	width:30px;
+	position:relative;
+	top:7px;
+	background-color:transparent;
+}
+#rec_tbl{
+height:30px;
+font-size:20px;
+font-weight:bold;
+position:absolute;
+top:65%;
+right:15%;
+text-align:left;
+display:none;
+color:black;
+background:-webkit-linear-gradient(top,  #6699ff, #ccccff);
+}
+#rec_tbl tr{
+border:none;
+}
+#gen_btn{
+background:-webkit-linear-gradient(top, #00ffff, #99ff66);
+	color: black;
+	font-weight:bold;
+	width:20%;
+	height:40px;
+	width:100px;
+	border-radius:20px;
+	outline: none;
+}

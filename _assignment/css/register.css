@@ -1,0 +1,57 @@
+#tbl{
+position:absolute;
+position:fixed;
+top:40%;
+right:25%;
+background:-webkit-linear-gradient(top,  #00ffff, #99ff66);
+}
+#tbl tr{
+height:50px;
+border:none;
+}
+#tbl td{
+text-align:center;
+font-size:30px;
+color:green;
+}
+#en_no{
+width:150px;
+height:25px;
+font-size:20px;
+border:none;
+border-bottom:2px solid black;
+outline: none;
+background:none;
+color:#ff6633;
+}
+#srch_btn{
+height:32px;
+width:120px;
+font-size:25px;
+font-weight:bold;
+background-color:#99ff66;
+}
+
+#rec_tbl{
+height:30px;
+font-size:20px;
+font-weight:bold;
+position:absolute;
+position:fixed;
+top:65%;
+right:15%;
+text-align:center;
+display:none;
+color:black;
+background:-webkit-linear-gradient(top,  #6699ff, #ccccff);
+}
+#rec_tbl tr{
+border:none;
+}
+#reg_btn{
+height:32px;
+width:120px;
+font-size:25px;
+font-weight:bold;
+background-color:#99ff66;
+}

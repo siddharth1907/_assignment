@@ -1,0 +1,73 @@
+project title- Enotes
+server-tomcat 9.0.1.
+languages-java core ,java advance,HTML,CSS,Javascript,EL.
+Apis-Servlet 4.0 api,jsp 2.3 api,Apache Commons FileUpload 1.4 api,
+JASYPT: Java Simplified Encryption 1.9.2 API,JavaMail API 1.5.5 API,Gson 2.8.6 api.
+database-MySQL server 5.0.
+############################################################################
+
+for password generation - java.util.Random.
+Random class has non-static nextInt method.
+
+###########################################################################
+
+for email sending - 
+[JavaMail API 1.5.5 API]
+javax.mail.Session,
+javax.mail.Authenticator,
+javax.mail.PasswordAuthentication,
+javax.mail.MessagingException,
+javax.mail.Transport,
+javax.mail.Message,
+javax.mail.Message.RecipientType,
+java.util.Properties,
+javax.mail.internet.MimeMessage,
+javax.mail.internet.InternetAddress,
+
+methods of MineMessage may throw MessagingException.
+
+##############################################################################
+
+for password encryption-
+[JASYPT: Java Simplified Encryption 1.9.2 API]
+org.jasypt.util.password.StrongPasswordEncryptor.
+StrongPasswordEncryptor has encryptPassword(String password) and
+checkPassword(String password) methods.
+
+#############################################################################
+
+for Fileuploading-
+[Apache Commons FileUpload 1.4 api]
+org.apache.commons.fileupload.servlet.ServletFileUpload,
+org.apache.commons.fileupload.disk.DiskFileItemFactory,
+org.apache.commons.fileupload.FileItem,
+org.apache.commons.fileupload.FileUploadException.
+
+############################################################################
+
+for FileDownloadind-
+javax.servlet.ServletContext.
+ServletContext has getMimeType(String Filename) and 
+getResourceAsStream(String FilePath);
+for collecting data-
+javax.servlet.http.HttpServletResponse
+HttpServletResponse has getOutputStream();
+for writing file in jsp or html page;
+
+###########################################################################
+
+for sending request and response-
+[Servlet 4.0 api]
+javax.servlet.http.HttpServletResponse,
+javax.servlet.http.HttpServletRequest,
+javax.servlet.http.HttpServlet.
+
+we use HttpServlet by extending it to our servlet class by using doGet or doPost method by method over riding.
+
+############################################################################################
+
+for sending json response or object as a response-
+[Gson 2.8.6 api]
+com.google.gson.Gson.
+
+Gson class has toJson(object o) method for creating a string json response.
