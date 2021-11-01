@@ -5,7 +5,7 @@ for exe file- https://drive.google.com/file/d/1b8viQ2U8uAr5cCWqtN3h3mTJg0Db1zVJ/
 for installation  snapshot- https://drive.google.com/drive/folders/1eVums-c2JCpkGCbnPTP2_kD65RxUQE1l?usp=sharing
 
 2.	MySQL work bench 8.0
-3.	
+
 For exe file-https://drive.google.com/file/d/1TSRV-QoyKm9vzJTAZp9dJJd7oXIh54s6/view?usp=sharing
 
 for installation  snapshot- https://docs.google.com/document/d/18rN6NCKOoiGtxUGYujRVnTdvtHLFC8XS/edit?usp=sharing&ouid=111206665713559193641&rtpof=true&sd=true
