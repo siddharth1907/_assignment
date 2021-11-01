@@ -181,7 +181,6 @@ function getAllElements(){
 	header = document.getElementById('header');
 	footer = document.getElementById('footer');
 	menu_bar = document.getElementById('menu_bar');
-	del_btn = document.querySelectorAll('#del_btn');
 }
 
 function setAllActions(){
@@ -199,13 +198,6 @@ function setAllActions(){
 	}
 
 	logout_btn.onclick = logout;
-	/*chng_pass.onclick  = showchangepassbox;
-	cancel_btn.onclick = hidechangepassbox;
-	chng_pass_btn.onclick = changePassword;
-	for(i=0;i<icon.length;i++){
-		icon[i].flag = 1;
-		icon[i].onclick = hide_show;
-	}*/
 }
 
 function logout(){
@@ -226,55 +218,3 @@ function hide_show(){
 }
 
 
-/*function showchangepassbox(){
-	change_pass_box.style.display = 'table';
-		main_body.style.opacity = '40%';
-		header.style.opacity = '40%';
-		menu_bar.style.opacity = '40%';
-		footer.style.opacity = '40%';
-		main_body.style.pointerEvents = 'none';
-		menu_bar.style.pointerEvents = 'none';
-		header.style.pointerEvents = 'none';
-}
-
-function hidechangepassbox(){
-	errbox.style.display = 'none';
-	change_pass_box.style.display = 'none';
-	main_body.style.opacity = '100%';
-	header.style.opacity = '100%';
-	menu_bar.style.opacity = '100%';
-	footer.style.opacity = '100%';
-	main_body.style.pointerEvents = 'auto';
-	menu_bar.style.pointerEvents = 'auto';
-	header.style.pointerEvents = 'auto';
-}
-
-var chngpass;
-function  changePassword(){
-	if(oldpass.value!=""&&newpass.value!=""&&confpass.value!=""){
-		chngpass = new XMLHttpRequest();
-		chngpass.open('get','change_pass.do?oldpass='+oldpass.value+'&newpass='+newpass.value+'&confpass='+confpass.value,true);
-		chngpass.onreadystatechange = afterChangePassword;
-		chngpass.send();
-	}else{
-		alert('All Feilds are mendatory!');
-	}
-}
-
-function afterChangePassword(){
-	if(chngpass.readyState==4&&chngpass.status==200){
-		var resp = chngpass.responseText;
-		if(resp=='success'){
-			alert('your password is changed successfully');
-			window.location = "dashboard.do";
-		}else if(resp=='unsuccessful'){
-			window.location = 'logout.do';
-		}else if(resp=="Incorrect Old Password"){
-			errbox.style.display = 'block';
-			errbox.innerHTML = resp;
-		}else{
-			errbox.style.display = 'block';
-			errbox.innerHTML = resp;
-		}
-	}
-}*/
