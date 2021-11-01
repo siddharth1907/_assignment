@@ -21,7 +21,9 @@ after setup of these jars the place the _assignment folder into webapps folder u
 	
 Open your tomcat folder go to bin and click on tomcat9.exe to start the server.
 For run this application open browser and then type – http://localhost:8080/_assignment/
+
 for database sql file are in _assignment/database folder file name-elderlycare.sql.
+
 Working-
 User needs to register first using email address and then login with their credentials to access the content.
 
