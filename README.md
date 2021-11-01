@@ -1,12 +1,19 @@
 For using this web application you have to install -
 1.	apache tomcat server 9.0.1
 for exe file- https://drive.google.com/file/d/1b8viQ2U8uAr5cCWqtN3h3mTJg0Db1zVJ/view?usp=sharing 
+
 for installation  snapshot- https://drive.google.com/drive/folders/1eVums-c2JCpkGCbnPTP2_kD65RxUQE1l?usp=sharing
+
 2.	MySQL work bench 8.0
+3.	
 For exe file-https://drive.google.com/file/d/1TSRV-QoyKm9vzJTAZp9dJJd7oXIh54s6/view?usp=sharing
-	for installation  snapshot- https://docs.google.com/document/d/18rN6NCKOoiGtxUGYujRVnTdvtHLFC8XS/edit?usp=sharing&ouid=111206665713559193641&rtpof=true&sd=true
+
+for installation  snapshot- https://docs.google.com/document/d/18rN6NCKOoiGtxUGYujRVnTdvtHLFC8XS/edit?usp=sharing&ouid=111206665713559193641&rtpof=true&sd=true
+
 **note-use Password(for both Mysql and Tomcat) – 1234 
+
 You have required some jar files also and placed them into the lib folder of tomcat application and then add environment variable(user and system both) for them 
+
 ![img1](/_assignment/images/rs1.png)
 1.	java-MySQL-connector jar 8.0.20
 https://drive.google.com/file/d/1fBmPHzMZAzaCiWrpZ1kjYHNyi1l322ij/view?usp=sharing
