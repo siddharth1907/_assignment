@@ -14,7 +14,7 @@
 		<div id="errbox" style='display:<%= error==null?"none":"block" %>'>
 			<%= error %>
 		</div>
-		<form action='login.do' method='post'>
+		<form action='login.do' method='POST'>
 		<table  id="login_box"  align='center' width="350px">
 		<tr>
 				<th colspan="2">User Login</th>
@@ -23,7 +23,7 @@
 				<td><img src='images/profile.png' id="uicon" class="icon"/><input type='text' id="email" name='email' class="inp" placeholder="Email" autocomplete="off" required/></td>
 			</tr>
 			<tr>
-				<td><img src='images/lock.png' id="picon" class="icon"/><input type='password' id="passw"  name='passw' class="inp" placeholder="Password" required/><img src='images/eye.png' id="eyeicon" class="icon"/></td>
+				<td><img src='images/lock.png' id="picon" class="icon"/><input type='password' id="passw"  name='password' class="inp" placeholder="Password" required/><img src='images/eye.png' id="eyeicon" class="icon"/></td>
 			</tr>
 			<tr>
 				<td colspan='2' align='center'><input type='submit' id="sub_btn" value="Login"  /></td>

@@ -9,7 +9,7 @@ import models.User;
 public class LoginServlet extends HttpServlet{
 	public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException{
 		HttpSession session = request.getSession();
-		String nextPage = "login.do";
+		String nextPage = "login.jsp";
 		
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet{
 		
 		if(loginResp==4){
 			session.setAttribute("user",user);
-			nextPage = "HealthyEating.do";
+			nextPage = "HealthyEating.jsp";
 		}else if(loginResp==3){
 			request.setAttribute("errmsg","Incorrect Password");
 		}else if(loginResp==2){

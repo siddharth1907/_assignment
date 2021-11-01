@@ -87,7 +87,7 @@
 <servlet-name>enotes011</servlet-name>
 <url-pattern>/HealthyEating.do</url-pattern>
 </servlet-mapping>
-
+   
 <servlet>
 <servlet-name>enotes022</servlet-name>
 <servlet-class>controllers.ShowPhysicalActivityPageServlet</servlet-class>

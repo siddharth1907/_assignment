@@ -145,7 +145,7 @@ function afterChangePassword(){
 		var resp = chngpass.responseText;
 		if(resp=='success'){
 			alert('your password is changed successfully');
-			window.location = "dashboard.do";
+			window.location = "HealthyEating.do";
 		}else if(resp=='unsuccessful'){
 			window.location = 'logout.do';
 		}else if(resp=="Incorrect Old Password"){
